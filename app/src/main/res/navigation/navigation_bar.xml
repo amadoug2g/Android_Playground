@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_bar"
+    app:startDestination="@id/listFragment">
+
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="com.playgroundagc.androidplayground.app.fragment.camera.CameraFragment"
+        android:label="CameraFragment"
+        tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.playgroundagc.androidplayground.app.fragment.list.ListFragment"
+        android:label="ListFragment"
+        tools:layout="@layout/fragment_list" />
+    <fragment
+        android:id="@+id/calendarFragment"
+        android:name="com.playgroundagc.androidplayground.app.fragment.calendar.CalendarFragment"
+        android:label="fragment_calendar"
+        tools:layout="@layout/fragment_calendar" />
+</navigation>

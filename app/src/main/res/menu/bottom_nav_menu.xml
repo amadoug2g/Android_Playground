@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/listFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_format_list"
+        android:title="Events" />
+    <item
+        android:id="@+id/calendarFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_calendar_month"
+        android:title="Calendar" />
+    <item
+        android:id="@+id/cameraFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_camera"
+        android:title="Camera" />
+</menu>
